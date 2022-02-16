@@ -1,0 +1,88 @@
+body{
+    background-color: #37342f;
+}
+
+.container{
+    margin: 0 auto; 
+    width: 960px;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+/* 0 top/bottom, auto is right/left so equalizes margin on either side of container */
+    /* how wide do you want your container? */
+
+/*
+Colours:
+
+b-g colour: #37342f
+orange-bg: #ff7f11
+tan-font: #ddd6d0
+*/
+
+/* nav */
+
+
+nav{
+    color:#ddd6d0;
+    background-color: #2d2620;
+    height: 100px;
+    opacity: 0.7;
+    display: flex;
+    max-width: 940px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 52px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    color: #ddd6d0;
+    text-decoration: none;
+    font-size: 24px;
+    width: 0px 10px;
+}
+
+nav img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* main */
+
+body{
+    background-image: url(../../humble-pie-menu/img/dark-menu.png);
+    background-repeat: no-repeat;
+    width: 1938px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #4e473f;
+    text-align: center;
+    color: #ddd6d0;
+}
+
+footer h3{
+    font-size: 24px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+footer img{
+    margin-left: 14px;
+    margin-bottom: 40px;
+}
